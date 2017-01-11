@@ -34,12 +34,6 @@ __revision__ = "$Revision: 395 $"
 __version__ = "0.2"
 
 
-from _fixedInt import DeFixedInt
-from _fixedInt import DeFixedIntOverflowError
-from _fixedInt import arrayFixedInt
-
-__all__ = [ "arrayFixedInt",
-            "DeFixedInt",
-            "DeFixedIntOverflowError"]
-
-#__all__ = ["_fixedInt"]
+from deModel._fixedInt import DeFixedInt
+from deModel._fixedInt import DeFixedIntOverflowError
+from deModel._fixedInt import arrayFixedInt
